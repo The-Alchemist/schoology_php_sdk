@@ -2,8 +2,9 @@
 
 class SchoologyApi
 {
-  private $_consumer_key;
-  private $_consumer_secret;
+  // from https://learnics.schoology.com/apps/profile/1407533587
+  private $_consumer_key = "93aa98a9fdb28ae68d9a73d9e9b7fd1305a5142cd";
+  private $_consumer_secret = "ed5bed40a7d3585e569f7c0208e6195b";
   private $_token_key = '';
   private $_token_secret = '';
   private $_is_two_legged = '';
